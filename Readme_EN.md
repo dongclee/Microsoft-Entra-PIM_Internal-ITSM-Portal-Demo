@@ -13,6 +13,8 @@ Organizations often want to manage access requests in their own service portal i
 
 **Important boundary:** This version does **not replace Microsoft Entra PIM end to end**. The internal portal creates **Eligible** assignments, meaning a user is allowed to activate a role. The user still goes to **Microsoft Entra PIM > My roles** to **activate** that role. Entra PIM policies enforce requirements such as MFA, activation approval, and maximum activation duration.
 
+<img width="1536" height="1024" alt="EntraID_PIM_ITSM_Portal" src="https://github.com/user-attachments/assets/1b0ffa17-c293-4a1e-b2c2-bb59115260a6" />
+
 ## How it works in 30 seconds
 
 1. An employee requests an administrator role in the internal portal.
@@ -82,7 +84,7 @@ User activates the role in Entra PIM My roles
 
 Include this source file in your repository:
 
-`Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1.txt`
+`Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1`
 
 Copy or rename it with a **`.ps1` extension**. For Windows PowerShell 5.1, save it as **UTF-8 with BOM**.
 
@@ -170,7 +172,7 @@ A: **Not out of the box.** This is a standalone **ITSM-style sample portal**. Re
 ```text
 README.md                 # Korean guide
 README_EN.md              # This English guide
-Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1.txt
+Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1
 .gitignore
 LICENSE                   # If the publisher chooses a license
 ```
