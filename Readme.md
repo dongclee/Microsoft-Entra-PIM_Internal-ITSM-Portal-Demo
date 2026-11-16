@@ -1,7 +1,5 @@
 # Microsoft Entra PIM + Internal ITSM Portal Demo
 
-**[한국어](README.md) | [English](README_EN.md)**
-
 > **한 줄 소개:** Microsoft Entra 관리자 권한을 회사 내부 ITSM 포털에서 **요청하고, 승인하고, 기간 제한으로 등록하고, 기록하는 방법**을 보여주는 샘플 프로젝트입니다.
 
 **Version:** 2.0.5.1  
