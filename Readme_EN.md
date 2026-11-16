@@ -1,7 +1,5 @@
 # Microsoft Entra PIM + Internal ITSM Portal Demo
 
-**[한국어](README.md) | [English](README_EN.md)**
-
 > **In one sentence:** A sample project showing how employees can **request, approve, provision time-limited eligibility, and track Microsoft Entra administrator roles** through an internal ITSM-style portal.
 
 **Version:** 2.0.5.1  
