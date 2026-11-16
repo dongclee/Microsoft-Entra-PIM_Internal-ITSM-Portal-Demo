@@ -13,6 +13,8 @@
 
 **중요:** 이 버전은 Entra PIM을 완전히 대체하지 않습니다. ITSM 포털은 **Eligible(활성화할 수 있는 자격)** 을 등록하고, 사용자가 실제 관리자 권한을 **Activate(활성화)** 하는 단계는 **Microsoft Entra PIM의 My roles**로 이동하여 수행합니다. MFA, 활성화 승인, 최대 활성화 시간은 Entra PIM 정책이 적용합니다.
 
+<img width="1536" height="1024" alt="EntraID_PIM_ITSM_Portal" src="https://github.com/user-attachments/assets/985af3b6-2ade-4eb3-baaa-648a2553a4c3" />
+
 ## 30초 만에 이해하기
 
 1. 직원이 내부 포털에서 관리자 권한을 요청합니다.
@@ -82,7 +84,7 @@ Microsoft Graph -> Entra 디렉터리 역할 Eligible 등록/회수
 
 이 저장소에 포함할 원본 파일:
 
-`Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1.txt`
+`Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1`
 
 다운로드한 파일을 **`.ps1` 확장자로 복사/이름 변경**하고, PowerShell 5.1을 사용할 경우 **UTF-8 BOM**으로 저장하세요.
 
@@ -170,9 +172,10 @@ A. 아닙니다. 현재는 **ITSM처럼 보이는 독립 샘플 포털**입니�
 ```text
 README.md                 # 한국어 소개 (이 파일)
 README_EN.md              # English guide
-Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1.txt
+Entra-PIM-ITSM-Financial-Portal-Launcher-v2.0.5.1.ps1
 .gitignore
-LICENSE                   # 배포자가 라이선스를 선택한 경우
+LICENSE                   # 배포자가 라이선스를 선택한 경우<img width="1536" height="1024" alt="EntraID_PIM_ITSM_Portal" src="https://github.com/user-attachments/assets/7103f84c-a6b2-4b5d-bd72-82fc0c3001d5" />
+
 ```
 
 **공개 전 확인:** 실제 고객명, 이메일, 테넌트 ID, 구독 ID, 인증 비밀, 포털 주소 및 고객 전용 화면을 제거하세요. 고객 설명 PPT를 함께 공개하려면 화면과 메타데이터도 별도로 검토하세요.
